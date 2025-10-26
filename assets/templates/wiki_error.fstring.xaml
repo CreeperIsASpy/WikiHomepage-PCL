@@ -1,0 +1,12 @@
+<local:MyCard>
+    <StackPanel Style="{{StaticResource ContentStack}}">
+        <Border Style="{{StaticResource HeadImageBorder}}">
+            <local:MyImage Source="https://http.cat/{response.status_code}.jpg" Stretch="UniformToFill" VerticalAlignment="Center"/>
+        </Border>
+        <Border Style="{{StaticResource TitleBorder}}">
+            <TextBlock Style="{{StaticResource TitleBlock}}" Text="{response.status_code}" />
+        </Border>
+        <TextBlock TextWrapping="Wrap" Text="新闻主页API 出错啦！可以去提醒一下……"
+    HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="16" Foreground="{{DynamicResource ColorBrush4}}" Margin="8,8,8,8"/>
+    </StackPanel>
+</local:MyCard>

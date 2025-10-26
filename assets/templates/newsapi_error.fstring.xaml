@@ -1,0 +1,6 @@
+<local:MyCard>
+    <StackPanel Style="{{StaticResource ContentStack}}">
+        <TextBlock TextWrapping="Wrap" Text="无法连接到新闻服务器！"
+    HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="{{DynamicResource ColorBrush4}}" Margin="8"/>
+    </StackPanel>
+</local:MyCard>

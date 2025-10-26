@@ -1,7 +1,7 @@
 # Megazine Homepage for PCL2
 
 ***A PCL2 Homepage -- Smart,modern and elegant.***
-![image](image.png)
+![image](assets/image.png)
 
 ## What is included in this homepage:
 
