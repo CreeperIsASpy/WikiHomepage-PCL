@@ -232,7 +232,7 @@ Mfn233                                       @ Github(Mfn233) 为主页提供最
 凌云                                            @ Github(JingHai-Lingyun) 提供挂载主页的oss,真的真的非常感激!
 排列没啥顺序，个个我都非常非常非常谢谢你们!</sys:String>
 <sys:String x:Key="WikiPage">https://zh.minecraft.wiki/w/%E5%8D%97%E7%93%9C</sys:String>
-<sys:String x:Key="VersionID">251107:1194d76</sys:String>
+<sys:String x:Key="VersionID">251108:0717cc9</sys:String>
 <BitmapImage x:Key="Img" UriSource="https://zh.minecraft.wiki/images/thumb/Snow_Covered_Pumpkins.png/350px-Snow_Covered_Pumpkins.png?a5ae6"/>
 <sys:String x:Key="Topic">南瓜</sys:String>
 <Style TargetType="Border" x:Key="HeadImageBorder" >
@@ -319,7 +319,7 @@ Mfn233                                       @ Github(Mfn233) 为主页提供最
                     Data="M4 2H2v12h2V4h10V2zm2 4h12v2H8v10H6zm4 4h12v12H10zm10 10v-8h-8v8z"/>
 <TextBlock HorizontalAlignment="Right" Grid.Column="1" Text="仿生猫梦见苦力怕" FontSize="14" VerticalAlignment="Center" Foreground="{DynamicResource ColorBrush4}"/>
 </Grid>
-<TextBlock Margin="0,2" Grid.Column="1" HorizontalAlignment="Right" Text="最后更新: 2025-11-07" FontSize="12" Foreground="{DynamicResource ColorBrush4}"/>
+<TextBlock Margin="0,2" Grid.Column="1" HorizontalAlignment="Right" Text="最后更新: 2025-11-08" FontSize="12" Foreground="{DynamicResource ColorBrush4}"/>
 <local:MyIconTextButton Text="WIKI" ToolTip="在 Minecraft Wiki 上查看该页面" EventType="打开网页"
     EventData="{StaticResource WikiPage}" LogoScale="1.05" Logo="{StaticResource WikiIcon}" HorizontalAlignment="Left"/>
 </StackPanel>
